@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 100px;
+  background-color: var(--primary);
+}
+
+nav input {
+  height: 30px;
+  width: 500px;
+  color: var(--text);
+  background-color: var(--background);
+  padding: 0.5rem;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+nav img {
+  cursor: pointer;
+}
+.esquerda {
+  display: flex;
+  align-items: center;
+  color: var(--secondary);
+}
+.direita {
+  display: flex;
+  gap: 2rem;
+}
+
+.direita img {
+  width: 30px;
+}
+
+.pesquisar {
+  display: flex;
+  align-items: center;
+}
+
+.pesquisar img {
+  border-radius: 0 10px 10px 0;
+  height: 45px;
+  padding: 0 0.5rem;
+  width: 20px;
+  background-color: var(--accent);
+}

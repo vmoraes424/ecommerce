@@ -1,0 +1,58 @@
+.tenis {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+.info,
+.info-esquerda,
+.info-direita,
+.info-meio {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info img {
+  width: 40px;
+}
+
+.info {
+  justify-content: space-between;
+  border-radius: var(--border);
+  width: 80%;
+  background-color: var(--secondary);
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.info-esquerda,
+.info-direita,
+.info-meio {
+  padding: 0 2rem;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+}
+
+footer {
+  height: 20vh;
+  margin-top: 4rem;
+  background-color: var(--accent);
+}

@@ -1,0 +1,85 @@
+.card {
+  max-width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-cima img {
+  width: 100%;
+}
+
+.card-baixo {
+  background-color: var(--secondary);
+  height: 150px;
+  padding: 1rem;
+}
+
+.card-baixo h2 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.card-baixo p {
+  padding: 0.5rem 0;
+}
+.card-baixo-botoes,
+.carrinho-mais {
+  display: flex;
+  align-items: center;
+}
+.card-baixo-botoes {
+  justify-content: space-between;
+}
+.card-baixo-botoes button {
+  background-color: var(--accent);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-baixo-botoes img {
+  width: 15px;
+}
+.carrinho-mais {
+  padding: 0.5rem;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: var(--accent);
+  transition: background-color 0.2s ease-in-out;
+}
+.carrinho-mais:hover {
+  background-color: var(--primary);
+}
+
+.card-principal-cima img {
+  width: 300px;
+}
+.card-principal {
+  max-width: 300px;
+  background-color: var(--accent);
+  color: var(--secondary);
+  cursor: pointer;
+}
+.card-principal-cima {
+  position: relative;
+}
+
+.card-principal-cima span {
+  position: absolute;
+  color: var(--text);
+  left: 0px;
+  bottom: 5px;
+  border-radius: 0 5px 0 0;
+  background-color: var(--secondary);
+  padding: 5px;
+}
+
+.card-principal h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.card-principal p {
+  padding: 0 0.5rem;
+  color: lightgray;
+}
